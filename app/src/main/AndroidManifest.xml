@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.felix.stuger">
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"></uses-feature>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>.
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>.
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/stuger_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PageQuestion" />
+        <activity android:name=".SignUpStepOneActivity" />
+        <activity android:name=".SignUpStepTwoActivity" />
+        <activity android:name=".QuestionActivity">
+        </activity>
+        <activity android:name=".ForumReplyActivity">
+        </activity>
+        <activity android:name=".LeaderboardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IPAActivity" />
+        <activity android:name=".IPSActivity" />
+        <activity android:name=".Bab1Kim" />
+        <activity android:name=".Bab2Kim" />
+        <activity android:name=".Bab3Kim" />
+        <activity android:name=".Bab1Fis" />
+        <activity android:name=".Bab2Fis" />
+        <activity android:name=".Bab3Fis" />
+        <activity android:name=".Bab1Math" />
+        <activity android:name=".Bab2Math" />
+        <activity android:name=".Bab3Math" />
+        <activity android:name=".Bab1Bio" />
+        <activity android:name=".Bab2Bio" />
+        <activity android:name=".Bab3Bio" />
+        <activity android:name=".Bab1Sos" />
+        <activity android:name=".Bab2Sos" />
+        <activity android:name=".Bab3Sos" />
+        <activity android:name=".Bab1Eko" />
+        <activity android:name=".Bab2Eko" />
+        <activity android:name=".Bab3Eko" />
+        <activity android:name=".Bab1Geo" />
+        <activity android:name=".Bab2Geo" />
+        <activity android:name=".Bab3Geo" />
+        <activity android:name=".Bab1Ppkn" />
+        <activity android:name=".Bab2Ppkn" />
+        <activity android:name=".Bab3Ppkn" />
+        <activity android:name=".HasilKuisSos1" />
+        <activity android:name=".HasilKuisSos2" />
+        <activity android:name=".HasilKuisSos3" />
+        <activity android:name=".HasilKuisEko1" />
+        <activity android:name=".HasilKuisEko2" />
+        <activity android:name=".HasilKuisEko3" />
+        <activity android:name=".HasilKuisGeo1" />
+        <activity android:name=".HasilKuisGeo2" />
+        <activity android:name=".HasilKuisGeo3" />
+        <activity android:name=".HasilKuisPpkn1" />
+        <activity android:name=".HasilKuisPpkn2" />
+        <activity android:name=".HasilKuisPpkn3" />
+        <activity android:name=".HasilKuisFis1" />
+        <activity android:name=".HasilKuisFis2" />
+        <activity android:name=".HasilKuisFis3" />
+        <activity android:name=".HasilKuisKim1" />
+        <activity android:name=".HasilKuisKim2" />
+        <activity android:name=".HasilKuisKim3" />
+        <activity android:name=".HasilKuisMath1" />
+        <activity android:name=".HasilKuisMath2" />
+        <activity android:name=".HasilKuisMath3" />
+        <activity android:name=".HasilKuisBio1" />
+        <activity android:name=".HasilKuisBio2" />
+        <activity android:name=".HasilKuisBio3"></activity>
+    </application>
+
+</manifest>

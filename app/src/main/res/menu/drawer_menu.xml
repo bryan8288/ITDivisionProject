@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Quiz"/>
+
+            <!--<menu>-->
+                <!--<item android:id="@+id/QuizIPA"-->
+                    <!--android:title="IPA"/>-->
+                <!--<item android:id="@+id/QuizIPS"-->
+                    <!--android:title="IPS"/>-->
+            <!--</menu>-->
+
+        <!--</item>-->
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Forum" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_adb_black_24dp"
+            android:title="Leaderboard" />
+    </group>
+
+</menu>

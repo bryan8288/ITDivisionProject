@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Stuger</string>
+    <string-array name="jurusan">
+        <item>Jurusan</item>
+        <item>IPA</item>
+        <item>IPS</item>
+    </string-array>
+
+    <string-array name="mata_pelajaran_ipa">
+        <item>Mata Pelajaran</item>
+        <item>Biologi</item>
+        <item>Fisika</item>
+        <item>Kimia</item>
+        <item>Matematika</item>
+    </string-array>
+    <string-array name="Ekonomi">
+        <item>Ekonomi</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="Geografi">
+        <item>Geografi</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="PPKN">
+        <item>PPKN</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="Sosiologi">
+        <item>Sosiologi</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="Biologi">
+        <item>Biologi</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="Fisika">
+        <item>Fisika</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="Kimia">
+        <item>Kimia</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="Matematika">
+        <item>Matematika</item>
+        <item>BAB 1</item>
+        <item>BAB 2</item>
+        <item>BAB 3</item>
+    </string-array>
+
+    <string-array name="mata_pelajran_ips">
+        <item>Mata Pelajaran</item>
+        <item>Ekonomi</item>
+        <item>Sosiologi</item>
+        <item>Geografi</item>
+        <item>PPKN</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

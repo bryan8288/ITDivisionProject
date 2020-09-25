@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvSelectMapel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Mata Pelajaran"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonIPA"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvSelectMapel"
+        android:text="IPA"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_round_blue"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonIPS"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonIPA"
+        android:layout_marginTop="20dp"
+        android:text="IPS"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_round_blue"
+        />
+</RelativeLayout>
