@@ -1,1 +1,1 @@
-Project akhir IT DIVISION
+Project Akhir Training IT DIVISION
